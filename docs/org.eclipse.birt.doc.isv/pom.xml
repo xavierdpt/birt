@@ -69,18 +69,6 @@
 							</target>
 						</configuration>
 					</execution>
-					<execution>
-						<id>clean</id>
-						<phase>clean</phase>
-						<goals>
-							<goal>run</goal>
-						</goals>
-						<configuration>
-							<target>
-								<ant antfile="${basedir}/BuildISVDoc.xml" target="cleanBuild" />
-							</target>
-						</configuration>
-					</execution>
 				</executions>
 			</plugin>
 		</plugins>
